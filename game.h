@@ -6,16 +6,16 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define EASY_COUNT 10
-#define ROW 9
-#define COL 9
+#define EASY_COUNT 3
+#define ROW 5
+#define COL 5
 #define ROWS ROW+2
 #define COLS COL+2
 
 //初始化棋盘
 void InitBoard(char board[ROWS][COLS], int rows, int cols, char set);
 //打印棋盘
-void DisplayBoard(char board[ROWS][COLS],int row,int col);
+void DisplayBoard(char board[ROWS][COLS], int row, int col);
 //设置雷
 void SetMine(char mine[ROWS][COLS], int row, int col);
 //排查雷
